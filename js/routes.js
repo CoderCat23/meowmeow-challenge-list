@@ -1,4 +1,5 @@
-import List from './pages/List.js';
+import List from './pages/list.js'; 
+// or 'js/pages/list.js' depending on how the template formatted it
 import Leaderboard from './pages/Leaderboard.js';
 import Roulette from './pages/Roulette.js';
 
