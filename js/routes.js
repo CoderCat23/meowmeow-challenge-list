@@ -1,7 +1,6 @@
 import List from './pages/list.js'; 
-// or 'js/pages/list.js' depending on how the template formatted it
-import Leaderboard from './pages/Leaderboard.js';
-import Roulette from './pages/Roulette.js';
+import Leaderboard from './pages/leaderboard.js';
+import Roulette from './pages/roulette.js';
 
 export default [
     { path: '/', component: List },
