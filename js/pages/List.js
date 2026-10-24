@@ -138,11 +138,11 @@ export default {
     }),
     computed: {
         level() {
-            return this.list[this.selected][0];
+            return this.list[this.selected] ? this.list[this.selected][0] : null;
         },
         video() {
-            if (!this.level.showcase) {
-                return embed(this.level.verification);
+            if (!this.level || !this.level.showcase) {
+                return this.level ? embed(this.level.verification) : '';
             }
 
             return embed(
